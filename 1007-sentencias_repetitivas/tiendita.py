@@ -12,7 +12,7 @@ while opcion_menu_principal != 9:
 
     if opcion_menu_principal == 1:
         opcion_menu_productos = 0
-        while opcion_menu_productos != 9
+        while opcion_menu_productos != 9:
             print("Menu productos")
             print("1. Carnes frias")
             print("2. Frutas y verduras")
