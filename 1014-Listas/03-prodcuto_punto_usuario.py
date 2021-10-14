@@ -12,7 +12,7 @@ for indice in range(dimension):
 
 for indice in range(dimension):
     numero = eval(input("Escribe un número para v2: "))
-    v1.append(numero)
+    v2.append(numero)
 
 
 for indice in range(dimension):
