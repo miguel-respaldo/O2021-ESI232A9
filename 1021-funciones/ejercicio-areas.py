@@ -45,3 +45,7 @@ while opcion != 5:
         radio = eval(input("¿Cual es la medida del radio?: "))
         resultado = area_circulo(radio)
         print("El área del circulo es:", resultado)
+    elif opcion == 5:
+        pass
+    else:
+        print("Opción Invalida")
