@@ -1,4 +1,4 @@
-archivo = open("demo2.txt","a")
+archivo = open("demo2.txt","w")
 archivo.write("Woops! ya se borro\n")
 archivo.close()
 
