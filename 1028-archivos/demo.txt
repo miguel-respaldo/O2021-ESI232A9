@@ -1,0 +1,5 @@
+¡Hola! Bienvenido al demo.txt
+Este es un archivo para pruebas.
+¡Buena suerte!
+Linea 4
+Linea 5
