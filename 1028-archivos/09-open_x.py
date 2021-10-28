@@ -1,0 +1,1 @@
+archivo = open("demo3.txt","x")
