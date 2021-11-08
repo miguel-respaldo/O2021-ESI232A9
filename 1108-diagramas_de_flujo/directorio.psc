@@ -15,26 +15,26 @@ Funcion menu ()
 FinFuncion
 
 Funcion mostrar_directorio (archivo)
-	Para linea <- 1 Hasta archivo Con Paso 1 Hacer
-		lista = funcion_de_python("split")
-		Escribir "Nombre, Telefono, Direccion"
-	Fin Para
+	Para linea<-1 Hasta archivo Hacer
+		lista <- funcion_de_python('split')
+		Escribir 'Nombre, Telefono, Direccion'
+	FinPara
 FinFuncion
 
 Funcion agregar_al_directorio (archivo)
-	Escribir "Escribe el nombre"
+	Escribir 'Escribe el nombre'
 	Leer nombre
-	Escribir "Escribe el telefono"
+	Escribir 'Escribe el telefono'
 	Leer telefono
-	Escribir "Escribe la direccion"
+	Escribir 'Escribe la direccion'
 	Leer direccion
-	Escribir "Es favorito S/N"
+	Escribir 'Es favorito S/N'
 	Leer favorito
-	fav = ""
-	Si favorito = "s" Entonces
-		fav = "*"
+	fav <- ''
+	Si favorito='s' Entonces
+		fav <- '*'
 	FinSi
-	archivo = funcion_de_python("write")
+	archivo <- funcion_de_python('write')
 FinFuncion
 
 Algoritmo directorio
@@ -51,13 +51,13 @@ Algoritmo directorio
 		Leer opcion_menu
 		Segun opcion_menu  Hacer
 			1:
-				archivo = funcion_de_python("open")
+				archivo <- funcion_de_python('open')
 				mostrar_directorio(archivo)
-				archivo = funcion_de_python("close")
+				archivo <- funcion_de_python('close')
 			2:
-				archivo = funcion_de_python("open")
+				archivo <- funcion_de_python('open')
 				agregar_al_directorio(archivo)
-				archivo = funcion_de_python("close")
+				archivo <- funcion_de_python('close')
 			3:
 				Escribir ''
 			De Otro Modo:
